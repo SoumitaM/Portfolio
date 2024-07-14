@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumita Mallick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicons.png.png" type="image/x-icon">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+      <a href="#home" class="logo">Soumita  <span>Mallick</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact </a>
+
+        
+        <!--<a href="#experience">Experience</a>
+        <a href="#achievements">Achievements</a>-->
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi,it's <span>Soumita</span></h1>
+        <h3>I'm a frontend developer.</h3>
+        <p>I am a pre-final year Computer Science Engineering student at Institute of Engineering and Management,Kolkata.<br>I have a keen interest in frontend web development and machine learning and am open to learning new technologies.<br>Currently looking for internship oppurtunities. </p>
+        <div class="social-icons">
+          <a href="https://github.com/SoumitaM">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/soumita-mallick-63a96b289/">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <!--<a href="#">
+            <i class="bx bxl-leetcode"></i>
+          </a>-->
+
+        </div>
+        <div class="btn group">
+          <a href="#contact" class="btn">Contact</a>
+          </div>
+
+      </div>
+      <div class="home-img">
+        <img src="" alt="">
+      </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="services-container">
+
+
+        <div class="service-box">
+          
+          <div class="service-info">
+          <i class="bx bxs-devices"></i>
+          <h4><a href="https://github.com/SoumitaM/SignSync">SignSync</a></h4>
+          <p>SignSync creates an inclusive and supportive community where individuals who are deaf and mute can come together to share their stories, challenges, and triumphs. Whether you're looking to connect with others who understand your experiences or you're interested in learning sign language, this platform offers a welcoming environment for all. A special feature of this website is the video calling feature, that generates text from sign language</p>
+        </div>
+        </div>
+
+
+        <div class="service-box">
+          <div class="service-info">
+          <i class="bx bxs-devices"></i>
+          <h4><a href="https://soumitam.github.io/2048_Game/">2048 Game</a></h4>
+          <p>Developed a fully functional web-based implementation of the popular 2048 puzzle game using HTML, CSS, and JavaScript. Implemented cursor-controlled gameplay to enhance user interaction and engagement and leveraged JavaScript for game logic, including tile movement, merging, and scoring mechanisms, ensuring an authentic 2048 gaming experience.</p>
+        </div>
+        </div>
+
+
+        <div class="service-box">
+          <div class="service-info">
+          <i class="bx bxs-devices"></i>
+          <h4><a href="https://github.com/SoumitaM/MLMovieRecommender" >Movie Recommender</a></h4>
+          <p>Developed a content-based movie recommender system using Python. Extracted movie features such as genre, director, and cast using natural language processing (NLP) techniques and leveraged TF-IDF vectorization to compute movie similarities and generate personalized recommendations based on user preferences.</p>
+        </div>
+      </div>
+
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form id="contact-form" action="https://formspree.io/f/movavwrj" method="POST">
+        
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" name="name" placeholder="What should I call you?" required>
+            <input type="email" name="email" placeholder="Email" required>
+            
+          </div>
+          <div class="input-box">
+            <input type="number" name="number" placeholder="Phone Number" >
+            <input type="text" name="subject" placeholder="Subject" required>
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://github.com/SoumitaM">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/soumita-mallick-63a96b289/">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <!--<a href="#">
+          <i class="bx bxl-leetcode"></i>
+        </a>-->
+
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#home">About Me</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        @Soumita Mallick | All Rights Reserved
+      </p>
+    </footer>
+   <script src="script.js"></script> 
+   <!--<script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script>
+    function sendEmail(){
+      Email.send({
+    Host : "smtp.gmail.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+    }
+   </script>-->
+</body>
+</html>
